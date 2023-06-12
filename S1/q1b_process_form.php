@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
     $_SESSION["genre"] = $genre;
     $_SESSION["radio"] = $radio;
 
-    header("Location: display_data.php");
+    header("Location: q1c_display_data.php");
     exit();
 }
 ?>

@@ -11,15 +11,18 @@
         }
 
         .container{
-        
+            max-width: 400px;
+            margin: 0 auto;
         }
 
         .form-group{
-
+            margin-bottom: 20px;
         }
 
         label{
-
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
         }
 
         input[type="text"]
@@ -95,11 +98,11 @@
         <div class="form-group">
             <label>Age Name:</label>
             <input type="radio" id="radio1" name="Kids" value="option1">
-            <label for="radio1">10 - 15</label>
+            <label for="radio1">KIDS</label>
             <input type="radio" id="radio2" name="Teens" value="option2">
-            <label for="radio2">16 - 25</label>
+            <label for="radio2">TEENAGER</label>
             <input type="radio" id="radio3" name="Adult" value="option3">            
-            <label for="radio3">26 - up</label>
+            <label for="radio3">ADULT</label>
         </div>
         <input type="submit" value="Submit">
         <input type="reset" value="Reset">

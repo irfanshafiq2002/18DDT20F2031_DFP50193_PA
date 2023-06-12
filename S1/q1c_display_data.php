@@ -61,6 +61,6 @@ session_start();
             <td><?php echo isset($_SESSION["radio"] ? $_SESSION["radio"] : "" ?></td>
         </tr>
     </table>
-    <p><a href="registration.php">Go back to the Registration Form</a></p>
+    <p><a href="q1a_registration.php">Go back to the Registration Form</a></p>
 </body>
 </html>
