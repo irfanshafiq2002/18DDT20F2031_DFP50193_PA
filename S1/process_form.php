@@ -25,10 +25,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
         exit();
     }
 
-    $_SESSION
-    $_SESSION
-    $_SESSION
-    $_SESSION
-    $_SESSION
-    $_SESSION
+    $_SESSION["name"] = $name;
+    $_SESSION["email"] = $email;
+    $_SESSION["password"] = $password;
+    $_SESSION["date"] = $date;
+    $_SESSION["genre"] = $genre;
+    $_SESSION["radio"] = $radio;
+
+    header("Location: display_data.php");
+    exit();
 }
+?>
